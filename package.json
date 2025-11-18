@@ -1,18 +1,23 @@
 {
-"name": "jgil-api-backend",
-"version": "1.0.0",
-"main": "server.js",
-"type": "module",
-"scripts": {
-"start": "node server.js"
-},
-"dependencies": {
-"axios": "^1.7.0",
-"express": "^4.19.0",
-"form-data": "^4.0.0",
-"multer": "^1.4.5-lts.1"
-},
-"engines": {
-"node": ">=18"
-}
+  "name": "jgil-image-backend",
+  "version": "1.0.0",
+  "description": "Backend API for J GIL Image Studio using SDXL-Turbo on Hugging Face.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "jgil",
+    "image-studio",
+    "sdxl-turbo",
+    "huggingface",
+    "api"
+  ],
+  "author": "J GIL Brothers",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
 }
